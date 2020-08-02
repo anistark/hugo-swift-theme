@@ -11,6 +11,8 @@ facilitate the `features` outlined below:
 
 #### Note: This version of [Hugo Swift Theme](https://github.com/onweru/hugo-swift-theme) has been modified to suit the needs of [my blog](https://blog.anirudha.dev).
 
+Keep your submodule updated : `git submodule update --remote`
+
 ## Features
 
 * Blog
@@ -49,6 +51,7 @@ You can configure the site using as follows:
 3. Customize Theme colors
     You can do so easily in the [variables sass partial](https://github.com/onweru/hugo-swift-theme/blob/e5af8a1414cd8e1ec5a0817f8e5eb8c8c98e2676/assets/sass/_variables.sass#L13-L21). Use names (e.g red, blue, darkgoldenrod), rgb, rgba, hsla or hex values.
 
+4. [Page Sites Variables](https://gohugo.io/variables/site/).
 
 ## Staticman Comments
 
