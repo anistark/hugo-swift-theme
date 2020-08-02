@@ -7,7 +7,9 @@ At its core, it's minimalistic; it doesn't rely on monolithic libraries such e.g
 jquery, bootstrap. Instead, it uses *grid css*, *flexbox* & *vanilla js* to
 facilitate the `features` outlined below:
 
-![Hugo Swift Theme](https://github.com/onweru/hugo-swift-theme/blob/master/images/screenshot.png)
+![Hugo Swift Theme](https://github.com/anistark/hugo-swift-theme/blob/master/images/screenshot.png)
+
+#### Note: This version of [Hugo Swift Theme](https://github.com/onweru/hugo-swift-theme) has been modified to suit the needs of [my blog](https://blog.anirudha.dev).
 
 ## Features
 
@@ -29,7 +31,7 @@ This theme uses `sass`. Ensure you have the [extended version of hugo](https://g
 Add this theme as a Git submodule inside your Hugo site folder:
 
 ```bash
-git submodule add https://github.com/onweru/hugo-swift-theme.git themes/hugo-swift-theme
+git submodule add https://github.com/anistark/hugo-swift-theme.git themes/hugo-swift-theme
 ```
 
 ## Configuration
@@ -46,7 +48,7 @@ You can configure the site using as follows:
     > Follow the `exampleSite/`.
 3. Customize Theme colors
     You can do so easily in the [variables sass partial](https://github.com/onweru/hugo-swift-theme/blob/e5af8a1414cd8e1ec5a0817f8e5eb8c8c98e2676/assets/sass/_variables.sass#L13-L21). Use names (e.g red, blue, darkgoldenrod), rgb, rgba, hsla or hex values.
-    
+
 
 ## Staticman Comments
 
@@ -72,7 +74,7 @@ To enable them, you may refer to the
 
   ```yaml
   ...
-  author: "yourName" # case sensitive. must match the name value in your saved data 
+  author: "yourName" # case sensitive. must match the name value in your saved data
   ...
   ```
 ### What if I want to exclude the `written by` from some articles?
@@ -106,7 +108,7 @@ This theme ships with two custom shortcodes (they both use positional parameters
 
 1. __Video__
     This shortcode can be used to embed a youtube video with custom styling. It takes a solo positional parameter.
-    
+
     ```
     ...
     {{< video "youtubeVideoID" >}}
@@ -116,8 +118,8 @@ This theme ships with two custom shortcodes (they both use positional parameters
 2. __Picture__
     You want to use darkmode images when darkmode is enabled on a device and a regular image on lightmode? It takes 3 positional parameters
 
-    Store these images in the `static/images` directory. 
-    
+    Store these images in the `static/images` directory.
+
     ```
     ...
     {{< picture "lightModeImage.png" "darkModeImage.png" "Image alt text" >}}
@@ -125,10 +127,10 @@ This theme ships with two custom shortcodes (they both use positional parameters
     ```
 
 3. __Gallery__
-    Include inline galleries within your articles. These galleries can contain `N` number of images. It takes 2 positional parameters. 
-    
+    Include inline galleries within your articles. These galleries can contain `N` number of images. It takes 2 positional parameters.
+
     The 1st parameter is required. It's a _comma-separated list_ (`,`) of your images' paths.
-    
+
     The 2nd parameter is optional. It's a _double-collon-separated list_ (`::`) of your images' alt/description/captions text. It's always a good SEO practice to include alt text for your images.
 
     ```
