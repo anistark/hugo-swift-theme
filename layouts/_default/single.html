@@ -22,6 +22,7 @@
   {{- if .Site.Params.Staticman }}
     {{- partial "comments" . }}
   {{- end }}
+  {{ template "_internal/disqus.html" . }}
   <aside>
     {{- partial "aside" . }}
   </aside>
