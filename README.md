@@ -1,5 +1,8 @@
 # Swift Theme
 
+#### Note: This version of [Hugo Swift Theme](https://github.com/onweru/hugo-swift-theme) has been modified to suit the needs of [my blog](https://blog.anirudha.dev).
+If you are looking for the original version, please visit the above link.
+
 This theme is designed for blogging purposes. Feel free to extend it for other
 use cases though.
 
@@ -8,8 +11,6 @@ jquery, bootstrap. Instead, it uses *grid css*, *flexbox* & *vanilla js* to
 facilitate the `features` outlined below:
 
 ![Hugo Swift Theme](https://github.com/anistark/hugo-swift-theme/blob/master/images/screenshot.png)
-
-#### Note: This version of [Hugo Swift Theme](https://github.com/onweru/hugo-swift-theme) has been modified to suit the needs of [my blog](https://blog.anirudha.dev).
 
 Keep your submodule updated : `git submodule update --remote`
 
